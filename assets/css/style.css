@@ -1238,7 +1238,11 @@ section {
   #header .logo .logoimg{
     display: none;
   }
-
+  
+.img2{
+  width: 100%;
+  height: auto;
+}
 }
 @media (max-width: 575px) {
 
