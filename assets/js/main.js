@@ -237,6 +237,7 @@
 function sendEmail() {
   let name = document.getElementById("name").value;
   let email = "markbosirekenyariri@gmail.com"
+  let email2 = document.getElementById("email").value;
   let subject = document.getElementById("subject").value;
   let message = document.getElementById("message").value;
 
@@ -248,7 +249,7 @@ function sendEmail() {
     To: "follextech@gmail.com",
   
     Subject: subject,
-    Body: "Name: " + name + "<br>Email: " + email + "<br>Message: " + message,
+    Body: "Name: " + name + "<br>Email: " + email2 + "<br>Message: " + message,
   }).then(
     function (response) {
       if (response === "OK") {
